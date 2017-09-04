@@ -1,0 +1,30 @@
+<header id="menu_header">
+<nav class="navbar navbar-inverse sidebar" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+            <img  id="logo" src="imagenes/aesi2.png" alt="">
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            <!-- START BLOCK : select -->
+                <li {select_hola}><a href="index.php?action=Ingreso::hola">Hola<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+                <li {select_eventos}><a href="index.php?action=Ingreso::eventos">Eventos<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+                <li {select_comision}><a href="index.php?action=Ingreso::comision">Comision<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+                <li {select_blog}><a href="index.php?action=Ingreso::blog">A lo Nuestro<span style="font-size:16px;" class="pull-right hidden-xs showopacity"></span></a></li>
+            <!-- END BLOCK : select -->
+               
+            </ul>
+        </div>
+    </div>
+</nav>
+</header>
+

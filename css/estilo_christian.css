@@ -1,0 +1,265 @@
+
+
+/*Desabilidar text area redimensionable*/
+
+@media screen and (min-width: 480px){
+   ul li a{
+    display: none;
+   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeff2;
+  font-family: "Calibri", "Roboto", sans-serif;
+}
+/*Menu Inamovible
+header{
+  position: fixed;
+  z-index: 20;
+}
+
+footer{
+  position: relative;
+  top: 100px;
+}
+
+#home_1{
+  position: relative;
+  top: 100px;
+}*/
+/***/
+/****MENUBAR*/
+.navbar-inverse{
+  
+  background-color: white;
+  border: 2px solid black;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-radius: 0%;
+}
+
+header li a:hover {
+ 
+  color: black!important;
+
+}
+
+
+
+
+.navbar-nav{
+  position: relative;
+  left: 0;
+}
+
+@media screen and (min-width: 360px){
+  .navbar-nav{
+      position: relative;
+      left: 0px;
+  }
+  .navbar-inverse button{
+  
+    background-color: black;
+   
+  }
+ 
+}
+
+@media screen and (min-width: 750px){
+   .navbar-nav{
+      position: relative;
+      left: 100px;
+  }
+  .navbar-inverse{
+  
+    background-color: white;
+    border: 2px solid black;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-radius: 0%;
+  }
+}
+/*///*/
+#main-menu-logo > *{
+  display: inline;
+}
+#logo{
+  
+  width: 100px;
+  height: 100px;
+}
+
+
+#aesi-texto-bar{
+  
+  width: auto;
+  position: relative;
+  padding-left: 8%;
+  padding-top: -20px;
+  margin-left: 30px;
+}
+/*****hOME*/
+#home_1 h1{
+  font-size: 5em;
+}
+#home_1 h2{
+  font-size: 7em;
+}
+#home_1 p{
+  font-size: 2em;
+}
+
+/*Slider***/
+.slides {
+  background: #636474;
+  /*width: 300%;*/
+  margin-bottom: 10%;
+
+}
+.slidesjs-pagination{
+  display: none;
+}
+.slides a{
+  color: #FFFFFF;
+  margin: 15%;
+}
+
+/*****COMISION*/
+#titulo-comision{
+  
+  position: relative;
+  left: 30%;
+
+}
+#titulo-comision h2{
+   font-size: 4em;
+}
+
+/*EVENTOS*/
+.eventos article p{
+  font-size: 1.6em;
+}
+.linea-horizontal_2{
+  position: relative;
+  bottom: 15px;
+  border: 1px solid black;
+}
+
+.eventos article h1{
+  font-weight: bold;
+}
+/**********************************************************/
+
+/***eFECTO*/
+.veloz{
+  -webkit-animation: 1s veloz 1;
+  
+}
+
+@-webkit-keyframes veloz{
+  0%{
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+.velozz{
+  -webkit-animation: 1s velozz 1;
+  
+}
+
+@-webkit-keyframes velozz{
+  0%{
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+  }
+}
+
+.velozzz{
+  -webkit-animation: 1s velozzz 1;
+  
+}
+
+@-webkit-keyframes velozzz{
+  0%{
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+  }
+}
+
+/*BLOG*/
+.blog{
+  
+  position: relative;
+  
+  height: 500px;
+  background-image: url("../imagenes/programador.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1000px 500px;
+}
+.blog div{
+  position: relative;
+  top: 200px;
+  background-color: #ACA6A6;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .blog{
+
+          background-image: url("../imagenes/programador.jpeg");
+
+    }
+}
+/****/
+/*********FOOTER*/
+footer{
+  background: #1B094D;
+  
+}
+
+footer h3,
+footer h4,
+footer p,
+footer label
+{
+  color: #FFFFFF
+ 
+}
+footer img{
+  width: 100px;
+  
+  
+}
+footer #unca-logo{
+  position: relative;
+  width: 35%;
+}
+
+footer #tecno-logo{
+  width: 30%;
+  margin-left: 5%;
+}
+
+footer .rrss{
+
+  width: 100%;
+  height: 40px;
+  
+}
+
+
+footer .rrss a{
+  width: 40px;
+  height: 40px;
+  
+  display: inline-block;
+  position: relative;
+}
+

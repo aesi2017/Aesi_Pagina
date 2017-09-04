@@ -1,0 +1,45 @@
+#comision{
+    
+}
+figure{
+    
+    
+}
+figure figcaption{
+    
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;   
+    
+
+}
+figure figcaption span{
+    
+    position: relative;
+    left: 25%;  
+
+}
+
+.linea-horizontal{
+    border:1px solid black;
+    border-right-style: none;
+    border-top-style: none;
+    border-left-style: none; 
+}
+
+.foto_perfil{
+	/* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 100% auto;
+    position: relative;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    
+}
